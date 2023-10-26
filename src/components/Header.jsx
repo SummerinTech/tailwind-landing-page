@@ -41,7 +41,10 @@ const Header = () => {
 							</a>
 						</div>
 						<div className="absolute right-0 bg-white rounded-full flex justify-center items-center p-5 border-4 border-pink-500">
-							<img className="w-16 h-16" src="/images/tailwind-logo.png" />
+							<img
+								className="w-16 h-16"
+								src="/assets/images/tailwind-logo.png"
+							/>
 						</div>
 					</div>
 				</div>
