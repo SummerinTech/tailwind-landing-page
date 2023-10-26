@@ -1,10 +1,10 @@
 const Header = () => {
 	return (
-		<header className="bg-indigo-500 px-4 py-3 w-full flex justify-center border-b-4 border-pink-500">
+		<header className="bg-indigo-600 px-4 py-3 w-full flex justify-center border-b-4 border-pink-500">
 			<div className="max-w-4xl w-full">
 				<div className="flex justify-between items-center text-pink-400">
 					<svg
-						className="h-8 fill-current "
+						className="h-9 fill-current "
 						xmlns="http://www.w3.org/2000/svg"
 						viewBox="0 0 108 32"
 					>
@@ -24,17 +24,17 @@ const Header = () => {
 					</button>
 				</div>
 				<div className=" my-4">
-					<h1 className="text-xl text-indigo-100">
+					<h1 className="text-2xl text-indigo-100">
 						Want to learn Tailwind CSS?
 					</h1>
-					<p className="text-sm text-indigo-200">
+					<p className="text-md text-indigo-200">
 						Tailwind is the fastest growing utility-first CSS framework. Let's
 						learn it step by step.
 					</p>
 					<div className="relative mt-4 flex justify-between">
 						<div>
 							<a
-								className="bg-pink-400 uppercase rounded-full font-bold mt-2 px-4 py-2 text-xs text-indigo-100 "
+								className="bg-pink-400 uppercase rounded-full font-bold mt-2 px-4 py-2 text-sm text-indigo-100 "
 								href="#"
 							>
 								Enroll Now
