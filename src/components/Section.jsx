@@ -1,4 +1,5 @@
 import Card from "./Card";
+import Form from "./Form";
 import { bulletPoints } from "../bulletpoints";
 
 const Section = () => {
@@ -15,7 +16,7 @@ const Section = () => {
 					it difficult to go back to use anything else. Learn all about it in
 					this all-inclusive course.
 				</p>
-				<h2 className="pb-1 font-bold text-xl text-indigo-600 border-indigo-200 border-b ">
+				<h2 className="mt-8 pb-1 font-bold text-xl text-indigo-600 border-indigo-200 border-b ">
 					Advantages
 				</h2>
 				<div className="sm:-mx-2 flex flex-col sm:flex-row">
@@ -32,10 +33,11 @@ const Section = () => {
 					})}
 				</div>
 			</div>
-			<div className="bg-blue-800 py-12 mt-12 w-full flex flex-col items-center border-t-2 border-black">
-				<h2 className="font-bold text-xl text-gray-400">
+			<div className="bg-gray-600 py-12 mt-12 w-full flex flex-col items-center border-t-2 border-black-100">
+				<h2 className="font-bold text-2xl text-gray-200">
 					Sign up to download the free PDF
 				</h2>
+				<Form />
 			</div>
 		</main>
 	);
