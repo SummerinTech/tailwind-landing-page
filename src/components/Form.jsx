@@ -37,7 +37,7 @@ const Form = () => {
 				/>
 			</FormBlock>
 			<FormBlock>
-				<button className="bg-blue-600 text-sm mt-4 rounded-lg py-2 px-4 w-full md:mx-2 ">
+				<button className="bg-indigo-600 text-sm mt-4 rounded-lg py-2 px-4 w-full md:mx-2 ">
 					Create Account
 				</button>
 			</FormBlock>
