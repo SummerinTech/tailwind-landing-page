@@ -41,8 +41,6 @@ const Form = () => {
 					Create Account
 				</button>
 			</FormBlock>
-
-			<div className=""></div>
 		</form>
 	);
 };
